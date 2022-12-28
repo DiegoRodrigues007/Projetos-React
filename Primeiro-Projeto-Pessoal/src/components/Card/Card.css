@@ -1,0 +1,89 @@
+.card-principal {
+  position: absolute;
+  width: 300px;
+  height: 400.6px;
+  left: 600px;
+  top: 213.95px;
+  background: linear-gradient(
+    191.32deg,
+    #7b2eb0 -118.59%,
+    #c584f5 15.64%,
+    #dacee1 56.18%,
+    #5d6aaa 81.36%,
+    #0d2986 109.76%,
+    #481cbb 131.68%,
+    #142d8e 131.68%
+  );
+  border-radius: 41.5692px;
+  /* z-index: ; */
+}
+
+.card-principal::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: linear-gradient(
+    191.32deg,
+    #7b2eb0 -118.59%,
+    #c584f5 15.64%,
+    #dacee1 56.18%,
+    #0d2986 97.62%,
+    #481cbb 131.68%,
+    #142d8e 131.68%
+  );
+  border-radius: 33.8533px;
+  transform: rotate(-14.23deg);
+  width: 270px;
+  height: 375.6px;
+  left: -10px;
+  top: 5px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.card-principal::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background: linear-gradient(
+    191.32deg,
+    #7b2eb0 -118.59%,
+    #c584f5 15.64%,
+    #dacee1 56.18%,
+    #0d2986 97.62%,
+    #481cbb 131.68%,
+    #142d8e 131.68%
+  );
+  border-radius: 33.8533px;
+  transform: rotate(-18.23deg);
+  width: 210px;
+  height: 358.6px;
+  left: -50px;
+  top: 20px;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.imagem {
+  display: grid;
+  place-content: center;
+  /* width: 300px;
+  height: 400.6px; */
+}
+
+.imagem img {
+  max-width: 100%;
+}
+
+.text {
+  display: flex;
+  padding-inline: 10px;
+  justify-content: space-around;
+  font-weight: 700;
+  align-items: center;
+  font-family: "Cousine", monospace;
+}
+
+.text p {
+  font-weight: 400;
+}

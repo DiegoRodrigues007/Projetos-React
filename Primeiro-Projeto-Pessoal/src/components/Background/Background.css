@@ -1,0 +1,10 @@
+.background-filter {
+  position: absolute;
+  width: 717px;
+  height: 691px;
+  left: -117px;
+  top: -132px;
+  background: #c689f9;
+  opacity: 0.3;
+  filter: blur(200px);
+}

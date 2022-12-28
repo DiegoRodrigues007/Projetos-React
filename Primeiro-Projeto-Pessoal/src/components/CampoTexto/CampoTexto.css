@@ -1,0 +1,22 @@
+.campo-texto {
+  text-align: left;
+  margin-left: 40px;
+  max-width: 600px;
+}
+
+.campo-texto h1 {
+  font-size: 80px;
+  font-weight: 700;
+  display: block;
+  word-wrap: normal;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.campo-texto p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
